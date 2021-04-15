@@ -4,10 +4,6 @@ This is some custom code written to fixup line numbers in Logeon citations of Pl
 
 # Scripts
 
-## pull-citations.pl
-
-This simply pulls references to Plautus from the Lewis and Short .xml files via a regex. Not worthy of note. Some ad-hoc scripting, one-liners, etc, were used to create the master citation list from this. (See "Files" below)
-
 ## map-citations.pl
 
 This maps citations of Plautus' plays in Lewis and Short, which are in the format
@@ -21,10 +17,15 @@ to
 ``` sh
 play:act:scene:line-in-scene, play:act:scene:absolute-line-number.
 ```
-I keep both references (in file "good.txt") for debugging purposes. If these look correct, I can run a script to replace the citations on the left of the comma with those on the right, as it were.
+I keep both references (in file "good.txt") for debugging purposes. If these look correct, I can run a script to replace the citations on the left of the comma with those on the right, as it were. Errors are output to "bad.txt" with enough debugging info to enable curation of these entries, I believe. See "Files, below."
 
 
-## Algorithm
+## pull-citations.pl
+
+This simply pulls references to Plautus from the Lewis and Short .xml files via a regex. Not worthy of note. Some ad-hoc scripting, one-liners, etc, were used to create the master citation list from this. (See "Files" below)
+
+
+# Mapping Algorithm
 The citations this script encounters are of the patterns:
 
 * play:act:line. This is assumed for no good reason to be a line in a corrupt play (20, 21), or to be scene 1. In the latter case this is mapped to play:act:"1":line. This needs verification.
