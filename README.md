@@ -1,4 +1,4 @@
-# Logeion-Platus Repository
+# Logeion Mapping Project: Plautus
 
 This is some custom code written to fixup line numbers in Logeon citations of Plautus. The work is in progress, but there's enough to evaluate.
 
