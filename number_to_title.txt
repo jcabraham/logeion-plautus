@@ -1,0 +1,22 @@
+001,Amphitryo
+002,Asinaria
+003,Aulularia
+004,Bacchides
+005,Captivi
+006,Casina
+007,Cistellaria
+008,Curculio
+009,Epidicus
+022,Fragmenta
+010,Menaechmi
+011,Mercator
+012,Miles Gloriosus
+013,Mostellaria
+014,Persa
+015,Poenulus
+016,Pseudolus
+017,Rudens
+018,Stichus
+019,Trinummus
+020,Truculentus
+021,Vidularia
